@@ -13,22 +13,22 @@
     "OP_PUSHDATA4",
     "malleability",
     "minimaldata",
-    "bitcoinjs-lib",
+    "ravencoinjs-lib",
     "bitcoin"
   ],
-  "homepage": "https://github.com/bitcoinjs/minimaldata",
+  "homepage": "https://github.com/raven-community/minimaldata",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/minimaldata/issues"
+    "url": "https://github.com/raven-community/minimaldata/issues"
   },
   "license": "MIT",
-  "author": "Daniel Cousens",
+  "author": "MSFTserver",
   "files": [
     "index.js"
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/minimaldata.git"
+    "url": "https://github.com/raven-community/minimaldata.git"
   },
   "scripts": {
     "prepublish": "npm run test",
@@ -43,7 +43,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "bitcoin-ops": "^1.3.0",
-    "pushdata-bitcoin": "^1.0.1"
+    "ravencoin-ops": "github:raven-community/ravencoin-ops#master",
+    "pushdata-ravencoin": "github:raven-community/pushdata-ravencoin#master"
   }
 }
