@@ -1,7 +1,7 @@
 {
   "name": "minimaldata",
-  "version": "1.0.2",
-  "description": "A module to check bitcoin policy: SCRIPT_VERIFY_MINIMALDATA",
+  "version": "1.0.0",
+  "description": "A module to check ravencoin policy: SCRIPT_VERIFY_MINIMALDATA",
   "keywords": [
     "minimal",
     "push",
@@ -14,7 +14,7 @@
     "malleability",
     "minimaldata",
     "ravencoinjs-lib",
-    "bitcoin"
+    "ravencoin"
   ],
   "homepage": "https://github.com/raven-community/minimaldata",
   "bugs": {
