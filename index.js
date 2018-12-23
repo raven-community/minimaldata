@@ -1,7 +1,7 @@
 var OPS = require('ravencoin-ops')
 var pushData = require('pushdata-ravencoin')
 
-// https://github.com/bitcoin/bitcoin/blob/master/src/script/script.h#L22
+// https://github.com/ravenproject/ravencoin/blob/master/src/script/script.h#L26
 var MAX_SCRIPT_ELEMENT_SIZE = 520
 
 // https://github.com/bitcoin/bitcoin/blob/d612837814020ae832499d18e6ee5eb919a87907/src/script/interpreter.cpp#L209
