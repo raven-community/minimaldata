@@ -1,6 +1,6 @@
 {
   "name": "minimaldata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module to check ravencoin policy: SCRIPT_VERIFY_MINIMALDATA",
   "keywords": [
     "minimal",
@@ -43,7 +43,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "ravencoin-ops": "github:raven-community/ravencoin-ops#master",
-    "pushdata-ravencoin": "github:raven-community/pushdata-ravencoin#master"
+    "ravencoin-ops": "^1.0.0",
+    "pushdata-ravencoin": "^1.0.1"
   }
 }
